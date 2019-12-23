@@ -9,6 +9,7 @@ body {
 
 .reponse {
     background-color: thistle;
+    font-style: italic;
 
 }  
 .reponse4 {
@@ -21,4 +22,26 @@ body {
 header {
     background-color: slategrey;
 }
-    
+.encadre {
+    width: 250px;
+    background-color: white;
+    border:  5px solid olive;
+    font-size: 15px;
+    padding: 10px;
+}
+abbr {
+    border-bottom : 2px dotted black;
+    letter-spacing: 5px;
+}
+.romain {
+    list-style-type: upper-roman;
+}
+blockquote {
+    background-color: chartreuse;
+    text-indent: 20px;
+    padding: 5px;
+
+}
+.gras {
+    font-weight: 600px;
+}
