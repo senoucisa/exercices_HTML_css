@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tableaux HTML</title>
+    <style>
+        dl {
+            background-color: violet;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            font-style: italic;
+        }
+
+        /* les styles pour les tableaux */
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            border-collapse: collapse;
+            
+
+        }
+        td,th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        /* EVEN pair,ODD impair pour donner une couleur au colonne pair ou impair */
+        tr:nth-child(even) {
+            background-color: rosybrown;
+        }
+        caption {
+            /* border: 1px solid blue; */
+            font-weight: bolder;
+            font-size: large ;
+            background-color:purple;
+            color:black;
+            padding: 16px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Des tableaux et une liste de définition</h1>
+    <h2>Liste de thermes et leur définition</h2>
+
+    <!--  -->
+    <dl>
+        <dt>Vacances</dt>
+            <dd>Période de congés des personnes en activité.</dd>
+        <dt>Travail</dt>
+            <dd>Activité humaine organisée et utile.Ensemble de ces activités</dd>
+
+
+
+    </dl>
+    <hr>
+    <h2>Des tableaux</h2>
+
+    <!-- code pour faire un tableau (table>tr*8>td*3{cellule}) -->
+
+<table>
+    <caption>Les plus belles compagnies du monde</caption>
+    <tr>
+        <th>Compagnie</th>
+        <th>Contact</th>
+        <th>Pays</th>
+        <th>Telephone</th>
+    </tr>
+    <tr>
+        <td>Auchan</td>
+        <td><a href="https://www.auchan.fr/">M<sup>me</sup>Auchan</a></td>
+        <td>France</td>
+        <td>0643773616</td>
+        
+    </tr>
+    <tr>
+        <td>Carrefour</td>
+        <td><a href="https://www.carrefour.fr/">M.Carrefour</a></td>
+        <td>France</td>
+        <td>0148444765</td>
+        
+    </tr>
+    <tr>
+        <td>Lidl</td>
+        <td><a href="https://www.lidl.fr/">Frau Lidl</a></td>
+        <td>Allemagne</td>
+        <td>
+            <ul>
+                <li>0958458712</li>
+                <li>0125987452</li>
+                <li>0325158954</li>
+            </ul>
+        </td>
+       
+    </tr>
+    <tr>
+        <td>Leclerc</td>
+        <td><a href="https://www.e-leclerc.com/">M.Leclerc</a></td>
+        <td>france</td>
+        <td>0125897456</td>
+    </tr>
+    <tr>
+        <td>Picard</td>
+        <td><a href="https://www.picard.fr/" title="Le site de Picard " target="_blank">M.Picard</a>
+        </td>
+        <td>France</td>
+        <td>0258695487</td>
+
+        
+    </tr>
+</table>
+<hr>
+        <h2>Tableau avec fusion de cellule</h2>
+
+<table>
+    <tr>
+    
+        <th>Nom</th>
+        <th colspan="2">Courriel</th>
+        <!-- colspan pour fusionner les colonnes -->
+    </tr>
+    <tr>
+        <td>Père Noêl</td>
+        <td><a href="mailto:papanoel@polenord.pn">papanoel@polenord.pn</a></td>
+        <td><a href="maitlo:santa-claus@noel.fr">santa-claus@noel.fr</a></td></A>
+    </tr>
+</table>
+    <hr>
+
+        <h2>Un tableau avec fusion de rangé</h2>
+<!-- table>tr*3>td*2 ceci est le code -->
+
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>bill Gates</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Téléphone</td>
+                <td>0654859874</td>
+            </tr>
+            <tr>
+                <td>0125898475</td>
+                
+            </tr>
+            <tr>
+                <td>0125898475</td>
+                
+            </tr>
+        </table>
+        <br><br><br><br><br><br>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
