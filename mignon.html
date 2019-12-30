@@ -9,21 +9,39 @@
         body {
             background-color: pink;
         }
+        
+        #mignon {
+            width: 60%;
+            /* margin 0 et auto sont les declarations racourcis pour 
+            https://developer.mozilla.org/fr/docs/Web/CSS/Propri%C3%A9t%C3%A9s_raccourcies auto permet de centrer la section a droite et a gauche dans l'élément parent */
+            margin: 0 auto;
+        }
+
+        /* les styles pour le tableau */
+        table {
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+
         .jaune {
             background-color: yellow;
         }
         .bleu {
-            background-color: lightskyblue;
+            background-color: blue;
+        }
+        .gris {
+            background-color: gray;
+        }
+        .noir {
+            background-color: black;
         }
         td {
-            width: 40px;
-            height: 40px;
+            width: 2em;
+            height: 2em;
+            border: 1px solid black;
         }
-        td,th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
+        
         
         
         
@@ -35,333 +53,243 @@
     
 </head>
 <body>
-    <section>
+    <div id="mignon">
 
-   <table>
-       <tr>
-           <td class="blanc"></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-           <td></td>
-       </tr>
-   </table>
-    </section>
+        <table>
+                <tr> 
+                <!-- 14 td pour avoir 14 colonnes -->
+                    <td colspan="14"></td>
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+            </tr>
+                <tr>
+                <!-- seconde rangée on doit fusionné les cellule -->
+                    <td colspan="4"></td>
+                    <td colspan="6" class="jaune"></td>
+                    <td colspan="4"></td>
+                
+           
+            </tr>
+                <tr>
+                <!-- 3eme rangée -->
+                    <td colspan="3"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="2" class="gris"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="3"></td>
+                
+            </tr>
+                <tr>
+                <!-- 4eme rangée -->
+                    <td colspan="2"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td class="gris"></td>
+                    <td colspan="2"></td>
+                    <td class="gris"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="2"></td>
+          
+            </tr>
+                 <tr>
+                <!-- 5eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td class="gris"></td>
+                    <td></td>
+                    <td colspan="2" class="noir"></td>
+                    <td></td>
+                    <td class="gris"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td colspan="2"></td>
+          
+             </tr>
+                <tr>
+                <!-- 6eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td class="gris"></td>
+                    <td></td>
+                    <td colspan="2" class="noir"></td>
+                    <td></td>
+                    <td class="gris"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td colspan="2"></td>
+      
+            </tr>
+                <!-- <tr7eme rangée  -->
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td class="gris"></td>
+                    <td colspan="2"></td>
+                    <td class="gris"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="2"></td>
+          
+           
+            </tr>
+                <tr>
+                 <!-- 8eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="4" class="jaune"></td>
+                    <td colspan="2" class="gris"></td>
+                    <td colspan="4" class="jaune"></td>
+                    <td colspan="2"></td>
+          
+           
+            </tr>
+                 <tr>
+                 <!-- 9eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td class="noir"></td>
+                    <td colspan="4" class="jaune"></td>
+                    <td class="noir"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td colspan="2"></td>
+          
+          
+            </tr>
+                 <tr>
+                <!-- 10eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="4" class="noir"></td>
+                    <td colspan="3" class="jaune"></td>
+                    <td colspan="2"></td>
+
+           
+          
+            </tr>
+                 <tr>
+                <!-- 11eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="10" class="jaune"></td>
+                    <td colspan="2"></td>
+          
+             </tr>
+                 <tr>
+                 <!-- 12eme rangée  -->
+                    <td colspan="2"></td>
+                    <td class="bleu"></td>
+                    <td colspan="8" class="jaune"></td>
+                    <td class="bleu"></td>
+                    <td colspan="2"></td>
+           
+           
+            </tr>
+                <tr>
+                <!-- 13eme rangée  -->
+                    <td colspan="2"></td>
+                    <td class="jaune"></td>
+                    <td colspan="8" class="bleu"></td>
+                    <td class="jaune"></td>
+                    <td colspan="2"></td>
+          
+           
+             </tr>
+                <tr>
+                <!-- 14 eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td colspan="6" class="bleu"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td colspan="2"></td>
+           
+           
+             </tr>
+                <tr>
+                <!-- 15eme rangée  -->
+                    <td colspan="2"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td colspan="6" class="bleu"></td>
+                    <td colspan="2" class="jaune"></td>
+                    <td colspan="2"></td>
+            </tr>
+                <tr>
+                <!-- 16eme rangée  -->
+                    <td colspan="2"></td>
+                    <td class="jaune"></td>
+                    <td colspan="8" class="bleu"></td>
+                    <td class="jaune"></td>
+                    <td colspan="2"></td>
+            
+            </tr>
+                 <tr>
+                <!-- 17eme rangée 
+                -->
+                    <td></td>
+                    <td colspan="2" class="noir"></td>
+                    <td colspan="8" class="bleu"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td></td>
+            
+            </tr>
+                <tr>
+                <!-- 18eme rangée  -->
+                    <td colspan="2"></td>
+                    <td class="noir"></td>
+                    <td colspan="8" class="bleu"></td>
+                    <td class="noir"></td>
+                    <td colspan="2"></td>
+           
+             </tr>
+                <tr>
+                <!-- 19eme rangée  -->
+                    <td colspan="4"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td colspan="2"></td>
+                    <td colspan="2" class="noir"></td>
+                    <td colspan="4"></td>
+           
+            </tr>
+                 <tr>
+                <!-- 20eme rangée  -->
+                    <td colspan="3"></td>
+                    <td colspan="3" class="noir"></td>
+                    <td colspan="2"></td>
+                    <td colspan="3" class="noir"></td>
+                    <td colspan="3"></td>
+            
+            </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+     
+           
+        </table>
+    </div>
 
 
 
