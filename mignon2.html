@@ -4,528 +4,345 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mignon 2</title>
+    <title>Mignon2</title>
     <style>
-    body {
-        background-color: pink;
-    }
-    
-    #mignon {
-        width: 60%;
-        /* margin 0 et auto sont les declarations racourcis pour 
-        https://developer.mozilla.org/fr/docs/Web/CSS/Propri%C3%A9t%C3%A9s_raccourcies auto permet de centrer la section a droite et a gauche dans l'élément parent */
-        margin: 0 auto;
-    }
-
-    /* les styles pour le tableau */
-    table {
-        border-collapse: collapse;
-        background-color: white;
-    }
-
-
-    
+        body {
+            background-color: gainsboro;
+        }
+        /* les styles pour la section */
+        #mignon2 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        /* les styles pour le tableau */
+        table {
+            border-collapse: collapse;
+            background-color: white;
+        }
+        td {
+            width: 2em;
+            height: 2em;
+            /* border: 1px solid black; */
+        }
         .black{
-            background-color:black;
+            background-color: black;
         }
-        .brown{
-            background-color: #900C3F;
+        .hair{
+            background-color: #2C2417;
         }
-        .light_brown{
-            background-color: #C70039;
+        .light_hair{
+            background-color: #403323;
         }
         .skin{
-            background-color: #F4E5B2;
+            background-color: #FDA97B;
         }
-        .pink{
-            background-color: #D6C89C;
+        .darker_skin{
+            background-color: #FA9B67;
         }
         .darker_green{
-            background-color: #004B35;
+            background-color: #243318;
         }
         .dark_green{
-            background-color: #007C59;
+            background-color: #314B1E;
         }
         .green{
-            background-color: #00956B;
+            background-color: #3A5324;
         }
         .light_green{
-            background-color: #00C78E;
+            background-color: #679636;
         }
         .yellow{
-            background-color: #FFC300;
+            background-color: #FBCE2C;
         }
         .cream{
-            background-color: #FFE180;
+            background-color: #FFE3B1;
         }
         .light_cream{
-            background-color: #FFF8DF;
+            background-color: #FCEDCC;
         }
-        .darker_blue{
-            background-color: #0065BF;
+        .darker_brown{
+            background-color: #6F2D0B;
         }
-        .dark_blue{
-            background-color: #0086FF;
+        .dark_brown{
+            background-color: #883509;
         }
-        .blue{
-            background-color: #60B3FF;
+        .brown{
+            background-color: #724724;
         }
-        .light_blue{
-            background-color: #0FD2FF;
+        .light_brown{
+            background-color: #81532A;
         }
-        .lighter_blue{
-            background-color: #DFF0FF;
+        .lighter_brown{
+            background-color: #95602E;
         }
-    td {
-        width: 2em;
-        height: 2em;
-        border: 1px solid black;
-    }
-
-</style>
-
+    </style>
 </head>
 <body>
-    <div id="Mignon"></div>
-
-    <table>
-        <!-- 1er rangée  -->
-        <tr>
-            <td colspan="5"></td>
-            <td colspan="6" class="black"></td>
-            <td colspan="4"></td>
-        </tr>
-        <!-- 2eme rangée  -->
-        <tr>
-            <td colspan="3"></td>
-            <td class="black"></td>
-            <td colspan="5" class="brown"></td>
-            <td colspan="5" class="black"></td>
-            <td colspan="4"></td>
-        </tr>
-        <!-- 3eme rangée  -->
-        <tr>
-            
-            <td class="black"></td>
-            <td colspan="11" class="brown"></td>
-            <td class="black"></td>
-            <td colspan="2"></td>
-        </tr>
-        <!-- 4eme rangée  -->
-        <tr>
-            <td class="black"></td>
-            <td colspan="12" class="brown"></td>
-            <td class="black"></td>
-            <td colspan="2"></td>
-           
-        </tr>
-        <!-- 5eme rangée  -->
-        <tr>
-            <td></td>
-            <td class="black"></td>
-            <td colspan="13" class="brown"></td>
-            <td class="black"></td>
-            <td colspan="2"></td>
-            
-        </tr>
-        <!-- 6 eme rangée  -->
-        <tr>
-            <td></td>
-            <td class="black"></td>
-            <td colspan="14" class="brown"></td>
-            <td class="black"></td>
-            <td></td>
-           
-        </tr>
-        <!-- 7eme rangée  -->
-        <tr>
-            <td class="black"></td>
-            <td colspan="15" class="brown"></td>
-            <td class="black"></td>
-            
-        </tr>
-        <!-- 8eme rangée  -->
-        <tr>
-            <td colspan="2" class="black"></td>
-            <td colspan="5" class="brown"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-    
+    <div id="mignon2">
+        <!-- tr*22>td*17 -->
+        <table>
+            <!-- 1ère rangée -->
+            <tr>
+                <td colspan="4"></td>
+                <td colspan="6" class="black"></td>
+                <td colspan="7"></td>
+            </tr>
+            <!-- 2e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td class="black"></td>
+                <td colspan="5" class="hair"></td>
+                <td colspan="4" class="black"></td>
+                <td colspan="4"></td>
+            </tr>
+            <!-- 3e rangée -->
+            <tr>
+                <td colspan="2"></td>
+                <td class="black"></td>
+                <td colspan="2" class="hair"></td>
+                <td colspan="3" class="light_hair"></td>
+                <td colspan="5" class="hair"></td>
+                <td class="black"></td>
+                <td colspan="3"></td>
+            </tr>
+            <!-- 4e rangée -->
+            <tr>
+                <td colspan="2"></td>
+                <td class="black"></td>
+                <td class="hair"></td>
+                <td colspan="4" class="light_hair"></td>
+                <td class="hair"></td>
+                <td colspan="3" class="light_hair"></td>
+                <td colspan="2" class="hair"></td>
+                <td class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 5e rangée -->
+            <tr>
+                <td></td>
+                <td class="black"></td>
+                <td colspan="2" class="hair"></td>
+                <td colspan="4" class="light_hair"></td>
+                <td class="hair"></td>
+                <td colspan="4" class="light_hair"></td>
+                <td class="hair"></td>
+                <td class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 6e rangée -->
+            <tr>
+                <td></td>
+                <td class="black"></td>
+                <td class="hair"></td>
+                <td colspan="5" class="light_hair"></td>
+                <td class="hair"></td>
+                <td colspan="5" class="light_hair"></td>
+                <td class="hair"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 7e rangée -->
+            <tr>
+                <td class="black"></td>
+                <td colspan="2" class="hair"></td>
+                <td colspan="4" class="light_hair"></td>
+                <td colspan="3" class="hair"></td>
+                <td colspan="6" class="light_hair"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- 8e rangée -->
+            <tr>
+                <td colspan="2" class="black"></td>
+                <td class="hair"></td>
+                <td class="light_hair"></td>
+                <td colspan="3" class="hair"></td>
+                <td colspan="2" class="skin"></td>
+                <td colspan="4" class="hair"></td>
+                <td colspan="2" class="light_hair"></td>
+                <td colspan="2" class="black"></td>
+            </tr>
+            <!-- 9e rangée -->
+            <tr>
+                <td></td>
+                <td class="black"></td>
+                <td colspan="3" class="hair"></td>
+                <td class="skin"></td>
+                <td colspan="2" class="hair"></td>
+                <td colspan="2" class="skin"></td>
+                <td class="hair"></td>
+                <td class="skin"></td>
+                <td colspan="2" class="hair"></td>
+                <td class="light_hair"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 10e rangée -->
+            <tr>
+                <td></td>
+                <td colspan="2" class="black"></td>
+                <td class="hair"></td>
+                <td class="light_hair"></td>
+                <td colspan="8" class="skin"></td>
+                <td colspan="3" class="hair"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- 11e rangée -->
+            <tr>
+                <td colspan="2"></td>
+                <td class="black"></td>
+                <td class="hair"></td>
+                <td class="darker_skin"></td>
+                <td class="skin"></td>
+                <td class="black"></td>
+                <td colspan="3" class="skin"></td>
+                <td class="black"></td>
+                <td colspan="2" class="skin"></td>
+                <td class="light_hair"></td>
+                <td class="darker_skin"></td>
+                <td colspan="2" class="black"></td>
+            </tr>
+            <!-- 12e rangée -->
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="2" class="black"></td>
+                <td class="darker_skin"></td>
+                <td colspan="8" class="skin"></td>
+                <td class="light_hair"></td>
+                <td class="darker_skin"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 13e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td class="black"></td>
+                <td class="darker_skin"></td>
+                <td colspan="2" class="skin"></td>
+                <td colspan="3" class="black"></td>
+                <td colspan="4" class="skin"></td>
+                <td class="light_hair"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 14e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td class="black"></td>
+                <td colspan="2" class="darker_skin"></td>
+                <td colspan="8" class="skin"></td>
+                <td class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 15e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="2" class="black"></td>
+                <td colspan="5" class="darker_skin"></td>
+                <td colspan="3" class="skin"></td>
+                <td colspan="2" class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 16e rangée -->
+            <tr>
+                <td colspan="5"></td>
+                <td colspan="8" class="black"></td>
+                <td class="dark_green"></td>
+                <td class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 17e rangée -->
+            <tr>
+                <td colspan="4"></td>
+                <td class="black"></td>
+                <td class="dark_green"></td>
+                <td class="green"></td>
+                <td class="darker_green"></td>
+                <td class="light_green"></td>
+                <td class="darker_green"></td>
+                <td colspan="4" class="green"></td>
+                <td class="dark_green"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 18e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td class="black"></td>
+                <td class="cream"></td>
+                <td class="black"></td>
+                <td class="darker_brown"></td>
+                <td class="cream"></td>
+                <td class="yellow"></td>
+                <td class="light_cream"></td>
+                <td class="darker_brown"></td>
+                <td class="dark_brown"></td>
+                <td class="black"></td>
+                <td class="light_cream"></td>
+                <td class="dark_green"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 19e rangée -->
+            <tr>
+                <td colspan="3"></td>
+                <td class="black"></td>
+                <td class="darker_skin"></td>
+                <td class="black"></td>
+                <td class="darker_brown"></td>
+                <td class="cream"></td>
+                <td colspan="2" class="light_cream"></td>
+                <td class="darker_brown"></td>
+                <td class="dark_brown"></td>
+                <td class="black"></td>
+                <td class="darker_skin"></td>
+                <td colspan="2" class="dark_green"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- 20e rangée -->
+            <tr>
+                <td colspan="4"></td>
+                <td colspan="2" class="black"></td>
+                <td class="darker_brown"></td>
+                <td colspan="3" class="brown"></td>
+                <td class="darker_brown"></td>
+                <td class="dark_brown"></td>
+                <td class="black"></td>
+                <td class="dark_green"></td>
+                <td colspan="2" class="darker_green"></td>
+                <td class="black"></td>
+            </tr>
+            <!-- 21e rangée -->
+            <tr>
+                <td colspan="5"></td>
+                <td class="black"></td>
+                <td colspan="2" class="light_brown"></td>
+                <td class="lighter_brown"></td>
+                <td class="light_brown"></td>
+                <td colspan="2" class="lighter_brown"></td>
+                <td class="black"></td>
+                <td colspan="2" class="darker_green"></td>
+                <td class="black"></td>
+                <td></td>
+            </tr>
+            <!-- 22e rangée -->
+            <tr>
+                <td colspan="5"></td>
+                <td class="black"></td>
+                <td class="darker_skin"></td>
+                <td colspan="4" class="black"></td>
+                <td class="darker_skin"></td>
+                <td colspan="3" class="black"></td>
+                <td colspan="2"></td>
+            </tr>
+            <!-- 23e rangée -->
+            <tr>
+                <td colspan="5"></td>
+                <td colspan="3" class="black"></td>
+                <td colspan="2"></td>
+                <td colspan="3" class="black"></td>
+                <td colspan="4"></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
